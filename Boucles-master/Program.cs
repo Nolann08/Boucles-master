@@ -17,12 +17,12 @@ class Program
             Console.WriteLine(counter);
         }
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
-        int ba = 6;
+        counter = 6;
 
-        while (ba > 0 )
+        while (counter > 0 )
         {
-            ba--;
-            Console.WriteLine(ba);
+            counter--;
+            Console.WriteLine(counter);
         }
         Console.WriteLine("Bonne année ! ");
         // Etape 3 : faire un compteur qui va de -4 à 2
