@@ -7,9 +7,15 @@ class Program
         /*
          * Consigne générale : faites un commit entre chaque étape !
          */
-        
+
         // Etape 1 : faire un compteur qui va de 1 à 10
-        //teste modif
+        int counter = 0;
+
+        while (counter < 10)
+        {
+            counter++;
+            Console.WriteLine(counter);
+        }
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
 
         // Etape 3 : faire un compteur qui va de -4 à 2
