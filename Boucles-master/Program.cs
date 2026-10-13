@@ -14,7 +14,7 @@ class Program
         while (counter < 10)
         {
             counter++;
-            Console.WriteLine(counter);
+            Console.WriteLine(counter); 
         }
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
         counter = 6;
@@ -26,7 +26,13 @@ class Program
         }
         Console.WriteLine("Bonne année ! ");
         // Etape 3 : faire un compteur qui va de -4 à 2
-        
+        counter = -5;
+
+        while (counter < 2)
+        {
+            counter++;
+            Console.WriteLine(counter);
+        }
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
         
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
